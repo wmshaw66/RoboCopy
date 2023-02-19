@@ -1,0 +1,11 @@
+C:\Robocopy\Tools\Robocopy  C:\FolderList          D:\Work\FolderList         /E /PURGE /XA:ST /ZB /R:0 /W:5  /LOG:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\My EverNote Files" "D:\Work\My EverNote Files" /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT 
+C:\Robocopy\Tools\Robocopy "C:\RoboCopy"          "D:\Work\RoboCopy"          /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT 
+C:\Robocopy\Tools\Robocopy "C:\Documents and Settings\ssummitt\Application Data\iPodder"    		    "D:\Work\ssummitt\Application Data\iPodder"			   /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\Documents and Settings\ssummitt\Application Data\Mozilla"	 	    "D:\Work\ssummitt\Application Data\Mozilla"			   /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\Documents and Settings\ssummitt\Application Data\Thunderbird" 		    "D:\Work\ssummitt\Application Data\Thunderbird"		   /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\Documents and Settings\ssummitt\Desktop" 				    "D:\Work\ssummitt\Desktop"				           /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\Documents and Settings\ssummitt\Local Settings\Application Data\Mozilla"     "D:\Work\ssummitt\Local Settings\Application Data\Mozilla"	   /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\Documents and Settings\ssummitt\Local Settings\Application Data\Thunderbird" "D:\Work\ssummitt\Local Settings\Application Data\Thunderbird" /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT
+C:\Robocopy\Tools\Robocopy "C:\MP3\iPodder"       "D:\MP3\iPodder"            /E /PURGE /XA:ST /ZB /R:0 /W:5 /LOG+:C:\Robocopy\RoboCopy.LOG /TEE /NDL /NP /NS /PF /COPY:DAT 
+shutdown -s -t 00
